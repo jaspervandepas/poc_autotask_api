@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+
 const Tickets = () => {
   const [tickets, setTickets] = useState([]);
   const [error, setError] = useState(null);
@@ -20,8 +21,7 @@ const Tickets = () => {
 
   return (
     <div>
-      <h1>Ticketoverzicht (storingen)</h1>
-      {error ? <p>Error: {error}</p> : (
+      {error ? <p><em>Error: {error}</em></p> : (
         <ul>
           {tickets.map(ticket => (
             <li key={ticket.id}>{ticket.title}</li>
