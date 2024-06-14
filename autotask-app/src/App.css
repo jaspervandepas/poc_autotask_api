@@ -48,10 +48,13 @@
 
 .App-header img {
   width: 10%;
+  position: absolute;
+  left: 11%;
+  top: 3%;
 }
 
 .title {
-  padding: 25px 0;
+  padding: 50px 0;
   font-size: 50px;
   font-weight: 900;
 }
@@ -208,7 +211,6 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
 }
 
 .content > button {

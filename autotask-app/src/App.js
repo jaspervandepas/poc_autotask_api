@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://analystict.nl/wp-content/uploads/2022/12/logo-1.svg" alt="logo"/>
+        <a href="https://analystict.nl/" ><img src="https://analystict.nl/wp-content/uploads/2022/12/logo-1.svg" alt="logo"/></a>
         <div className='title'>
           <h3>Altijd up to date?<br />Superlogisch!</h3>
         </div>
